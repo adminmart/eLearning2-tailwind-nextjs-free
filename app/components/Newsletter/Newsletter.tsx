@@ -3,10 +3,11 @@ import Image from "next/image";
 const Newsletter = () => {
     return (
         <>
-            <div className="mx-auto max-w-2xl md:max-w-7xl testimonialbg">
+            {/* <div className="mx-auto max-w-2xl md:max-w-7xl testimonialbg"> */}
+            <div className="mx-auto max-w-2xl md:max-w-7xl">
                 <div className="grid grid-cols-1 gap-y-10 gap-x-6 md:grid-cols-12 xl:gap-x-8">
 
-                    <div className="col-span-12 relative">
+                    <div className="col-span-12 relative bg-imagee">
                         {/* <div className="absolute right-[45px]"> */}
                             <Image src="/assets/newsletter/bell.svg" alt="bell-image" width={170} height={170} className="absolute right-[45px] hidden sm:block" />
                             <Image src="/assets/newsletter/sound.svg" alt="sound-image" width={170} height={170} className="absolute left-[0px] bottom-4 hidden sm:block" />
