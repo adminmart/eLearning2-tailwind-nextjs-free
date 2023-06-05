@@ -23,6 +23,7 @@ module.exports = {
       'paleblue': '#D5EFFA',
       'ultramarine': '#1A21BC',
       'slategray': '#57595F',
+      'grey500': '#ECECEC',
       'lightkblue': '#F6FAFF',
       'red': '#B40000',
       'gold': '#FFB900',
